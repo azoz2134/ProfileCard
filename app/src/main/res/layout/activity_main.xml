@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingXL" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/paddingL"
+        android:paddingEnd="@dimen/paddingM"
+        android:background="@drawable/rounded_corner_24">
+        <ImageView
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:src="@drawable/daniel"
+            android:contentDescription="@string/img"
+            android:layout_marginEnd="@dimen/marginL"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginM"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans"
+                    android:lines="1"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/textColorH"
+                    android:text="@string/name"
+                    android:textSize="@dimen/textTitleSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_corner_for_time"
+                    android:fontFamily="@font/dm_sans"
+                    android:paddingHorizontal="@dimen/paddingM"
+                    android:paddingVertical="@dimen/paddingXS"
+                    android:text="@string/timeLogin"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSizeNormal" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/marginM">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="@string/job"
+                    android:textColor="@color/textColorM"
+                    android:textSize="@dimen/textSizeNormal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans"
+                    android:gravity="end"
+                    android:text="@string/country"
+                    android:textColor="@color/textColorM"
+                    android:textSize="@dimen/textSizeNormal" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:orientation="horizontal"
+                android:contentDescription="@string/icon"
+                android:layout_marginBottom="@dimen/marginM">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/marginS"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="@string/locationCountry"
+                    android:textColor="@color/textColorL"
+                    android:textSize="@dimen/textSizeNormalPlus" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans"
+                    android:gravity="end"
+                    android:text="@string/lastTimeLocation"
+                    android:textColor="@color/textColorL"
+                    android:textSize="@dimen/textSizeNormal" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#F8F8F8"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="@string/numberOfReviews"
+                    android:layout_marginEnd="@dimen/marginM"
+                    android:textColor="@color/textColorH"
+                    android:textSize="@dimen/textSizeNormal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="@string/star_rate"
+                    android:layout_marginEnd="@dimen/marginS"
+                    android:textColor="@color/textColorH"
+                    android:textSize="@dimen/textSizeNormal"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:contentDescription="@string/icon"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_star_4"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

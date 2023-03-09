@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="lastTimeLocation">5 Days ago</string>
+    <string name="locationCountry">Uk</string>
+    <string name="numberOfReviews">(150) Reviews</string>
+    <string name="country">Russian</string>
+    <string name="job">Engineer</string>
+    <string name="timeLogin">3 hr</string>
+    <string name="name">Ahmad hassan</string>
+    <string name="icon">icon</string>
+    <string name="star_rate">4.5</string>
+    <string name="img">img</string>
+</resources>

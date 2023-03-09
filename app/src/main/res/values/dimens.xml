@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeTextTitle">14sp</dimen>
+    <dimen name="textTitleSize">16sp</dimen>
+    <dimen name="textSizeNormalPlus">13sp</dimen>
+    <dimen name="textSizeNormal">12sp</dimen>
+    <dimen name="paddingXL">16dp</dimen>
+    <dimen name="paddingL">12dp</dimen>
+    <dimen name="paddingM">8dp</dimen>
+    <dimen name="paddingS">4dp</dimen>
+
+    <dimen name="marginL">12dp</dimen>
+    <dimen name="marginM">8dp</dimen>
+    <dimen name="marginS">4dp</dimen>
+    <dimen name="paddingXS">2dp</dimen>
+</resources>
